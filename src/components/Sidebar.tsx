@@ -6,7 +6,7 @@ export function Sidebar() {
     const { data } = useGetLessonsQuery();
 
     return (
-        <aside className="w-[348px] bg-gray-700 p-6 border-l border-gray-600 rounded max-h-screen overflow-y-auto hidden lg:block">
+        <aside className="w-[348px] bg-gray-700 p-6 border-l border-gray-600 rounded max-h-screen overflow-y-auto hidden z-50 lg:block" data-aside>
             <p className="font-bold text-2xl pb-6 mb-6 border-b border-gray-500 block">Cronograma das Aulas</p>
 
             <div className="flex flex-col gap-8">

@@ -34,6 +34,13 @@ footer {
     margin-top: auto;
 }
 
+.aside-mobile {
+    position: fixed;
+    top: 76px;
+    right: 0;
+    height: calc(100vh - 76px) !important;
+}
+
 .button-link-primary,
 .button-link-secondary {
     @apply flex items-center rounded font-bold uppercase gap-2 justify-center flex-wrap transition-colors p-4 text-sm;
