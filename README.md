@@ -7,4 +7,4 @@ Se isso já estiver feito basta dar o compando:
 
     npm install --force
 
-o --force é devido a uma divergência nas lib vime, que ainda não foi atualizada com a versão 18 do react
+o --force é devido a uma divergência no packege vime, que ainda não foi atualizada com a versão 18 do react
