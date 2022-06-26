@@ -3,6 +3,11 @@ module.exports = {
     content: ["./src/**/*.tsx"], // todos os arquivos do react que terminam com tsx vão utilizar de estilizações do tailwind
     theme: {
         extend: {
+            backgroundImage: {
+                blur: "url(/src/assets/img/background-blur.png)",
+                react: "url(/src/assets/img/background-blur.png)",
+            },
+
             fontFamily: {
                 sans: "Roboto ,sans-serif",
             },
