@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { Header } from "../components/Header";
 import { Sidebar } from "../components/Sidebar";
 import { Video } from "../components/Video";
+import { Footer } from "../components/Footer";
 
 export function Event() {
     const { lesson } = useParams<{ lesson: string }>();
@@ -14,6 +15,7 @@ export function Event() {
 
                 <Sidebar />
             </main>
+            <Footer />
         </div>
     );
 }
