@@ -37,7 +37,7 @@ export function Video(props: VideoProps) {
             </div>
 
             <div className="p-8 max-w-[1100px] mx-auto">
-                <div className="flex items-start gap-16">
+                <div className="flex items-start flex-col md:flex-row gap-16">
                     <div className="flex-1">
                         <div>
                             <h1 className="text-2xl font-bold">{data.lesson.title}</h1>
@@ -55,13 +55,13 @@ export function Video(props: VideoProps) {
                         )}
                     </div>
 
-                    <div className="flex flex-col gap-4">
+                    <div className="flex flex-col gap-4 w-full justify-items-stretch md:w-auto">
                         <ButtonLink variant="primary" icon={<DiscordLogo size={24} />} text="Comunidade do Discord" />
                         <ButtonLink variant="secondary" icon={<Lightning size={24} />} text="Acesse o desafio" />
                     </div>
                 </div>
 
-                <div className="gap-8 mt-20 grid grid-cols-2">
+                <div className="gap-8 mt-20 grid grid-cols-1 md:grid-cols-2">
                     <ButtonContent title="Material complementar" description="Acesse o material complementar para acelerar o sue desenvolvimento" />
                     <ButtonContent title="Wallpapers exclusivos" description="Baixe wallpapers exclusivos do Ignite Lab e personalize a sua máquina" />
                 </div>
