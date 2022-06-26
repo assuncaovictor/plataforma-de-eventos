@@ -1,10 +1,7 @@
-# Plataforma de Eventos
+# <a href="https://plataforma-de-eventos-silk.vercel.app/">Plataforma criada com React no evento Ignite Lab da Rocketseat. </a>
 
-## Plataforma criada com React no evento Ignite Lab da Rocketseat.
+### Página de inscrição
+<img src="/src/assets/img/ignite-inscricao.png" />
 
-Para iniciar o projeto é necessário ter o npm e o node instalados na sua máquina
-Se isso já estiver feito basta dar o compando:
-
-    npm install --force
-
-o --force é devido a uma divergência no packege vime, que ainda não foi atualizada com a versão 18 do react
+### Página de vídeo
+<img src="/src/assets/img/ignite-video.png" />
